@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Richard Alexander Allen
-  description: Composer installer for Drupal coding standards.
+  description: Ansible role that installs Drupal coding standards for PHP Code Sniffer.
   license: GPLv2
   min_ansible_version: 1.2
 
