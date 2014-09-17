@@ -31,7 +31,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: webservers
       roles:
-         - { role: AlexanderAllen.Liara }
+         - { role: AlexanderAllen.drupal-coding-standards }
 
 Inside `vars/main.yml`:
 
