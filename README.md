@@ -7,8 +7,8 @@ Requirements
 ------------
 
 - PHP
-- Composer
-- PHP Code Sniffer
+- Composer. Automatically installed via `AlexanderAllen.Composer`.
+- PHP Code Sniffer. Automatically installed via `AlexanderAllen.CodeQuality`.
 
 Role Variables
 --------------
@@ -22,7 +22,8 @@ The directory where Composer downloads packages to can be specified in `vars/mai
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+ - `AlexanderAllen.Composer`
+ - `AlexanderAllen.CodeQuality`
 
 Example Playbook
 ----------------
@@ -31,7 +32,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: webservers
       roles:
-         - { role: AlexanderAllen.Liara }
+         - { role: AlexanderAllen.drupal-coding-standards }
 
 Inside `vars/main.yml`:
 
